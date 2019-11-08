@@ -14,3 +14,11 @@
 // ***********************************************************
 
 import './commands'
+before(function() {
+  cy.request(`http://localhost:5000/posts`).then(response => {
+    cy.writeFile(
+      `cypress/fixtures/generated/posts.json`,
+      response.body,
+    )
+  })
+})
