@@ -1,0 +1,18 @@
+{
+  "name": "web-app-parcel",
+  "version": "1.0.0",
+  "description": "A blank web app using TypeScript and Parcel",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.7.3"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "test"
+  },
+  "author": "tmhung",
+  "license": "MIT"
+}

@@ -1,0 +1,1 @@
+export default 'How are you'
