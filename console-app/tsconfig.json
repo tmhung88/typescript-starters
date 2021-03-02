@@ -5,7 +5,8 @@
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "resolveJsonModule": true,
-        "types": ["jest"],
+        "esModuleInterop": true,
+        "types": ["jest", "node"],
         "outDir": "build"
     },
     "ts-node": {
